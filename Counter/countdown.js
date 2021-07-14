@@ -40,6 +40,6 @@ function startTimer(id, deadline){
     },1000);
 }
 window.onload = function(){
-    var deadline = new Date("January 1, 2020 00:00:01");
+    var deadline = new Date("January 1, 2022 00:00:01");
     startTimer("clock", deadline);  
 }
